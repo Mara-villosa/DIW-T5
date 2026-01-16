@@ -21,4 +21,29 @@ footer{
     text-align: center;
     padding: 1em;
     font-size: 1.5em;
+    margin-top: 1rem;
+}
+
+/*Escritorio*/
+@media screen and (min-width: 1000px){
+    video {
+        width: 70%;
+        height: 70%;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width:700px) and (max-width:999px) {
+    video {
+        width: 90%;
+        height: 60%;
+    }
+}
+
+/*Teléfono*/
+@media screen and (min-width:300px) and (max-width:700px){
+    video {
+        width: 80%;
+        height: 80%;
+    }
 }
